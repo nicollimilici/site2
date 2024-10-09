@@ -1,0 +1,30 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --ciza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+body { 
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .principal {
+        background-image: url(iamg/Background.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .container {
+        height: 100vh;
+    }
+    @import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+}
